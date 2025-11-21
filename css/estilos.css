@@ -1,0 +1,370 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+section {
+    padding: 60px 0;
+    min-height: 100vh; /* permite crescer quando necessário */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    #sobre,
+    #comofunciona,
+    #sejaumparceiro,
+    #apoioaogringo,
+    #apoioaoparceiro {
+        margin-top: 80px; /* navbar fixa */
+    }
+}
+
+#home {
+  background-image: linear-gradient(
+        rgba(255, 255, 255, 1),   /* nível de escuridão */
+        rgba(255, 255, 255, 0.6)
+    ),
+    url(../img/logofbranco.png);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    color: rgb(216, 6, 6);
+
+    
+}
+
+
+#home h1 {
+    font-size: 4rem;
+}
+
+#home p {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 576px) {
+    #home p {
+        font-size: 36px !important;
+        line-height: 40px;
+    }
+}
+
+.scroll-btn {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        height: auto !important;
+        padding: 10px 15px;
+    }
+}
+
+nav.scrolled {
+    background-color: #333 !important;
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+
+.navbar .nav-link:hover {
+    color: red !important;
+}
+
+#sobre {
+  background-image: linear-gradient(
+        rgba(255, 255, 255, 1),   /* nível de escuridão */
+        rgba(255, 255, 255, 0.6)
+    ),
+    url(../img/turistaperdida.png);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    color: rgb(216, 6, 6);
+
+    
+}
+
+#comofunciona {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.9),   /* nível de escuridão */
+        rgba(255, 255, 255, 0.4)
+    ),
+    url(../img/mockland.png);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    color: rgb(216, 6, 6);
+
+    
+}
+/* CONTAINER PRINCIPAL */
+.container-custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    padding: 20px 40px;
+}
+
+/* CARROSSEL */
+.carrossel-lateral {
+    max-width: 350px;
+    flex-shrink: 0;
+}
+
+.carousel-inner {
+    width: 100%;
+    max-width: 550px;
+}
+
+@media (max-width: 576px) {
+    .carousel-inner {
+        max-width: 340px;
+    }
+}
+
+/* TEXTO */
+.texto-lateral {
+    flex: 1;
+}
+
+.texto-lateral p {
+    width: 100% !important;
+    float: none !important;
+}
+
+.texto-grande {
+    font-size: xx-large;
+    
+}
+
+/* TÍTULO */
+.titulo {
+    font-size: 45px;
+    margin-bottom: 26px;
+}
+
+/* RESPONSIVO (CELULAR / TABLET) */
+@media (max-width: 992px) {
+    .container-custom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .carrossel-lateral {
+        margin-bottom: 20px;
+        max-width: 400px;
+    }
+
+    .texto-lateral {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .texto-grande {
+        font-size: 19px;
+    }
+
+    .titulo {
+        font-size: 36px;
+    }
+}
+
+
+#apoioaogringo {
+  background-image: linear-gradient(
+        rgba(255, 255, 255, 1),   /* nível de escuridão */
+        rgba(255, 255, 255, 0.1)
+    ),
+    url(../img/turistas.png);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    color: #1e6fa9;
+
+   
+}
+
+
+#sejaumparceiro {
+  background-image: linear-gradient(
+        rgba(255, 255, 255, 1),   /* nível de escuridão */
+        rgba(255, 255, 255, 0.4)
+    ),
+    url(../img/parceiros.png);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    color: #1e6fa9;
+    text-decoration: solid black;
+
+    
+}
+
+
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#apoioaoparceiro {
+  background-image: linear-gradient(
+        rgba(255, 255, 255, 0.8),   /* nível de escuridão */
+        rgba(255, 255, 255, 0.6)
+    ),
+    url(../img/suppoort.png);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    color: #1e6fa9;
+    text-decoration: solid black;
+
+    
+}
+
+#criadores{
+  background-image: linear-gradient(
+        rgba(255, 255, 255, 1),   /* nível de escuridão */
+        rgba(255, 255, 255, 0.6)
+    ),
+    url(../img/logofbranco.png);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+    min-height: 100vh;
+    
+    
+    
+    color: rgb(216, 6, 6);
+    
+
+    
+}
+
+#criadores img{
+
+
+    width: 300px;
+
+
+}
+
+.sobredavi{
+
+    color: #1e6fa9;
+    font-size: xx-large;
+    font-weight: 600;
+    float:left ;
+    text-align:justify;
+    
+    width: 60%;
+    margin-right: 12%;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.sobreleo{
+
+    color: #1e6fa9;
+    font-size: xx-large;
+    font-weight: 600;
+    float:left ;
+    text-align:justify;
+    
+    width: 60%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-left: 12%;
+    
+}
+
+.fotodavi{
+
+    float: left;
+    border-radius: 30%;
+    margin-left: 3%;
+}
+
+.fotoleo{
+    float: right;
+    border-radius: 30%;
+    margin-top: 7%;
+    margin-right: 3%;
+}
+
+label.error {
+    color: red;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 5px;
+    display: block;
+}
+
+input.error, select.error, textarea.error {
+    border: 1px solid red;
+}
