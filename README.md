@@ -5,21 +5,21 @@ Static Landing Page with a contact form, developed to practice layout structure,
 🔗 Apresentação | Presentation:
 [https://gringoes.vercel.app/](https://gringoes.vercel.app/)
 
-📌 Sobre o projeto | About the project
+## 📌 Sobre o projeto | About the project
 Este projeto consiste em uma landing page simples que contém um formulário de contato, permitindo que o usuário envie informações (como nome, e-mail e mensagem).
 O foco está na construção da interface e na organização do código front-end, sem integração com backend ou banco de dados.
 
 This project is a simple landing page containing a contact form, allowing users to submit information (such as name, email, and message).
 The focus is on front-end structure and code organization, without backend or database integration.
 
-🛠️ Tecnologias utilizadas | Technologies used
+## 🛠️ Tecnologias utilizadas | Technologies used
 HTML5
 CSS3
 JavaScript (validação/interação básica)
 Git & GitHub
 Vercel (deploy)
 
-✉️ Formulário de contato | Contact form
+## ✉️ Formulário de contato | Contact form
 O formulário permite que o usuário:
 
 Preencha nome, e-mail e mensagem;
@@ -34,13 +34,13 @@ Submit the form as a contact simulation
 See basic frontend validation (if implemented)
 The data is not stored or sent to a server. The form is for demonstration purposes only.
 
-🚀 Deploy
+## 🚀 Deploy
 O projeto está publicado usando Vercel, com deploy automático a partir do repositório GitHub.
 Cada novo commit pode gerar um novo deploy automaticamente.
 
 The project is deployed using Vercel, with automatic deployment from the GitHub repository.
 
-🎯 Objetivos de aprendizado | Learning goals
+## 🎯 Objetivos de aprendizado | Learning goals
 Criar landing pages estáticas
 Build static landing pages
 Estruturar formulários em HTML
