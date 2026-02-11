@@ -1,4 +1,4 @@
-#🌟 Exercicio Landing Page#
+# 🌟 Exercicio Landing Page
 Projeto de Landing Page estática com formulário de contato, desenvolvida para praticar estruturação de layout, semântica HTML, estilização com CSS e deploy de sites estáticos.
 Static Landing Page with a contact form, developed to practice layout structure, semantic HTML, CSS styling, and static site deployment.
 
